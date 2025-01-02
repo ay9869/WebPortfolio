@@ -1,0 +1,356 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Abhimanyu Yadav's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        /* Updated CSS for featured post */
+        .post.featured {
+            padding: 20px;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .post.featured header {
+            margin-bottom: 15px;
+        }
+
+        .post.featured h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            line-height: 1.3;
+        }
+
+        .post.featured p {
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+
+        .post.featured ul {
+            list-style-position: inside;
+            padding-left: 0;
+            margin-bottom: 10px;
+        }
+
+        .post.featured li {
+            margin-bottom: 5px;
+            line-height: 1.4;
+        }
+
+        .post.featured .image.main {
+            margin-top: 15px;
+            border-radius: 8px;
+        }
+
+        .post.featured .actions {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        
+        /* CSS for aligning posts and fixing Read More button position */
+        .posts {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .posts article {
+            display: flex;
+            flex-direction: column; /* Arrange content vertically */
+            justify-content: space-between; /* Distribute space between elements */
+            flex: 0 1 calc(48%); /* Two posts per row */
+            background: #fff;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .posts article header {
+            margin-bottom: 10px;
+        }
+
+        .posts article img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .posts p {
+            margin: 10px 0;
+            flex-grow: 1; /* Ensures text grows to occupy available space */
+        }
+
+        .posts .actions {
+            margin-top: auto; /* Pushes the button to the bottom */
+            text-align: center;
+        }
+
+        /* Responsive design for smaller screens */
+        @media (max-width: 768px) {
+            .posts article {
+                flex: 0 1 100%; /* Make posts full-width on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+        <!-- Intro -->
+        <div id="intro">
+            <h1>My Portfilio</h1>
+            <img src="assets/images/myphoto.jpg" alt="Divyanshu Mishra" style="width:250px; border-radius:15px; margin-top:20px; border: 2px solid #ccc;" />
+            <p>Follow me on LinkedIn <a href="https://www.linkedin.com/in/abhimanyu-yadav-utd/">@abhimanyu-yadav-utd/</a></p>
+            <ul class="actions">
+                <li><a href="#nav" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+        </div>
+
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">Portfolio</a>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li class="active"><a href="index.html">Portfolio</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="about-me.html">About Me</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="https://github.com/ay9869" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="https://www.linkedin.com/in/abhimanyu-yadav-utd/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">   
+            <!-- Featured Post -->
+            <article class="post featured">
+                <header class="major">
+                    <span class="date">January 3, 2023</span>
+                    <h2><a href="https://tomatosmart.netlify.app" target="_blank">Tomato Leaf Disease Detection: <br />AI’s Leafy Rescuers in Action!</a></h2>
+                    <p>Computer vision has emerged as a vital tool in agriculture for monitoring plant health and diagnosing diseases. 
+                        This research proposes a deep learning-based approach using the <strong>VGG19 architecture</strong> to detect tomato leaf diseases. 
+                        The method is capable of automatically identifying <strong>nine major tomato leaf diseases</strong>, including bacterial spot, early blight, late blight, and spider mite damage, enabling efficient and accurate plant health assessment.</p>
+                    <p><strong><br/>Key features of the dashboard include:</strong></p>
+                    <ul>
+                        <li><strong>Real-Time Results:</strong> Immediate disease detection and analysis with up-to-date visual feedback.</li>
+                        <li><strong>Dynamic Filters:</strong> Tailor views by disease type, severity, or time period for precise analysis.</li>
+                        <li><strong>Predictive Insights:</strong> Leverage data trends to forecast disease spread and recommend preventive measures.</li>
+                    </ul>
+                    <p>
+                        With a user-friendly interface and <strong>predictive capabilities</strong>, this innovation brings precision and efficiency to <strong>plant disease management</strong>, driving smarter agricultural practices.
+                    </p>
+                    </header>
+                    <a href="https://tomatosmart.netlify.app" target="_blank" class="image main"><img src="images/1.jpg" alt="Tomato Leaf" /></a>
+                    <ul class="actions special">
+                        <li style="background: linear-gradient(to right, purple, blue); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold; font-style: italic;">
+                            <strong><em>This project and research paper has been published in the 4th International Conference on Internet of Things.</em></strong>
+                        </li>
+                    </ul>
+                    <a href="https://github.com/ay9869/Tamato-Leaf-DIsease-Detection" target="_blank" class="animated-button">
+                        Read More
+                    </a>
+                    
+                    <style>
+                      .animated-button {
+                          display: inline-block;
+                          padding: 12px 24px;
+                          font-size: 16px;
+                          font-weight: bold;
+                          color: white;
+                          background: linear-gradient(90deg, #4CAF50, #2E8B57);
+                          text-decoration: none;
+                          border-radius: 30px;
+                          overflow: hidden;
+                          position: relative;
+                          text-align: center;
+                          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                          transition: transform 0.3s, box-shadow 0.3s;
+                      }
+                    
+                      .animated-button::before {
+                          content: '';
+                          position: absolute;
+                          top: 50%;
+                          left: 50%;
+                          width: 0;
+                          height: 0;
+                          background: rgba(255, 255, 255, 0.5);
+                          border-radius: 50%;
+                          transform: translate(-50%, -50%);
+                          opacity: 0;
+                          transition: width 0.6s ease, height 0.6s ease, opacity 0.6s ease;
+                      }
+                    
+                      .animated-button:hover {
+                          transform: scale(1.1);
+                          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+                      }
+                    
+                      .animated-button:hover::before {
+                          width: 200%;
+                          height: 200%;
+                          opacity: 0;
+                      }
+                    </style>                    
+
+            </article>
+            <section class="posts" style="background: linear-gradient(to bottom, #f8f9fa, #eef2f3); padding: 40px 20px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <article style="margin-bottom: 40px; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                    <header style="margin-bottom: 20px;">
+                        <span class="date" style="color: #6c757d; font-size: 0.9rem; font-style: italic;">December 9, 2024</span>
+                        <h2 style="margin: 10px 0; font-size: 1.5rem; color: #0077B5;">
+                                (Power BI) Unlocking Business Potential:<br />Sales Insights and Analysis
+                        </h2>
+                    </header>
+                        <img src="images/2.jpg" alt="Sales Insights" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" />
+                    <p style="line-height: 1.6; font-size: 1rem; color: #343a40;">
+                        This project leverages data analytics to extract actionable insights from sales data, helping businesses make informed decisions. Key highlights include analyzing sales trends, customer behavior, and visualizing performance metrics. Using tools like <strong>Power BI, MySQL, Excel, and Python</strong>, the project delivers reports and models to optimize strategies and improve revenue.
+                    </p>
+                </article>
+
+                <article style="margin-bottom: 40px; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                    <header style="margin-bottom: 20px;">
+                        <span class="date" style="color: #6c757d; font-size: 0.9rem; font-style: italic;">December 10, 2024</span>
+                        <h2 style="margin: 10px 0; font-size: 1.5rem; color: #0077B5;">
+                            <a href="https://github.com/ay9869/SQL-Project" target="_blank" style="text-decoration: none; color: #0077B5;">
+                                (SQL) Spotify Insights:<br />Data-Driven Spotify Streaming Analysis
+                            </a>
+                        </h2>
+                    </header>
+                    <a href="https://github.com/ay9869/SQL-Project" target="_blank" class="image main" style="display: block; margin-bottom: 20px;">
+                        <img src="images/3.jpg" alt="Stream Analysis Insights" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" />
+                    </a>
+                    <p style="line-height: 1.6; font-size: 1rem; color: #343a40;">
+                        The Stream Analysis project leverages <strong>SQL and Python</strong> to examine streaming data, focusing on listener behavior, genre preferences, and engagement trends. Key analyses include identifying the least-played tracks, top genres by play count, and most engaged listeners. Using advanced SQL techniques like <strong>CASE, JOINs, GROUP BY</strong> and Python for data visualization, the project uncovers actionable insights, including trends in total plays and top-performing tracks by listening time.
+                    </p>
+                    <ul class="actions special" style="list-style: none; padding: 0; margin-top: 20px; text-align: center;">
+                        <li>
+                            <a href="https://github.com/ay9869/SQL-Project" target="_blank" style=" display: inline-block; padding: 10px 20px; font-size: 0.9rem;
+                                font-weight: 600; font-family: 'Arial', sans-serif; text-align: center; background: linear-gradient(to right, #4A90E2, #0077B5); color: white;
+                                text-decoration: none; border-radius: 6px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                                READ MORE
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+
+            <section style="background: linear-gradient(to bottom, #4A90E2, #50C9C3); padding: 40px 20px; border-radius: 15px; color: white; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+                <h2 style="text-align: center; margin-bottom: 30px; font-size: 2rem; font-weight: bold; letter-spacing: 1px;">My Certifications</h2>
+                <div style="display: flex; justify-content: center; gap: 20px;">
+                    <!-- Left Column -->
+                    <ul style="list-style: none; padding: 20px; width: 45%; background: rgba(255, 255, 255, 0.2); border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                        <li style="margin-bottom: 20px; font-size: 1rem;">
+                            <strong>Building Web Applications in PHP</strong>
+                            <br><small>University of Michigan</small>
+                        </li>
+                        <li style="margin-bottom: 20px; font-size: 1rem;">
+                            <strong>NPTEL Natural Language Processing</strong>
+                            <br><small>IIT Kharagpur</small>
+                        </li>
+                        <li style="margin-bottom: 20px; font-size: 1rem;">
+                            <strong>Basics of Machine Learning - Python</strong>
+                            <br><small>IEEE SRMIST</small>
+                        </li>
+                        <li style="margin-bottom: 20px; font-size: 1rem;">
+                            <strong>SQL Basics</strong>
+                            <br><small>HackerRank</small>
+                        </li>
+                        <li style="margin-bottom: 20px; font-size: 1rem;">
+                            <strong>Modernised Automotive Dynamics Workshop</strong>
+                            <br><small>SRM University, Potheri, Chennai</small>
+                        </li>
+                    </ul>
+            
+                    <!-- Right Column -->
+                    <ul style="list-style: none; padding: 20px; width: 45%; background: rgba(255, 255, 255, 0.2); border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                        <li style="margin-bottom: 20px; font-size: 1rem;">
+                            <strong>Python Basic</strong>
+                            <br><small>HackerRank</small>
+                        </li>
+                        <li style="margin-bottom: 20px; font-size: 1rem;">
+                            <strong>iOn Career Edge</strong>
+                            <br><small>TCS iON</small>
+                        </li>
+                        <li style="margin-bottom: 20px; font-size: 1rem;">
+                            <strong>Cognitive Computing Workshop</strong>
+                            <br><small>IBM | SRM University</small>
+                        </li>
+                        <li style="margin-bottom: 20px; font-size: 1rem;">
+                            <strong>Outlook of the Indian Automobile Market</strong>
+                            <br><small>SRM University</small>
+                        </li>
+                        <li style="margin-bottom: 20px; font-size: 1rem;">
+                            <strong>Problem Solving</strong>
+                            <br><small>HackerRank</small>
+                        </li>
+                    </ul>
+                </div>
+            </section>            
+        <!-- Footer -->
+            <footer id="footer" style="background: linear-gradient(to bottom, #f7f7fa, #e3f2fd); padding: 40px 20px; border-top: 5px solid #d1e8ff; color: #333; text-align: center;">
+                <section class="split contact" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 20px; max-width: 1200px; margin: 0 auto;">
+                    <section style="flex: 1; min-width: 200px; padding: 10px;">
+                        <h3 style="color: #4A90E2; font-weight: bold;">Address</h3>
+                        <p>7575 Frankford Road<br />Dallas, TX 75080, USA</p>
+                    </section>
+                    <section style="flex: 1; min-width: 200px; padding: 10px;">
+                        <h3 style="color: #4A90E2; font-weight: bold;">Phone</h3>
+                        <p><a href="tel:+14692711975" style="color: #333; text-decoration: none;">+1 (469) 271-1975</a></p>
+                    </section>
+                    <section style="flex: 1; min-width: 200px; padding: 10px;">
+                        <h3 style="color: #4A90E2; font-weight: bold;">Email</h3>
+                        <p><a href="mailto:axy240016@utdallas.edu" style="color: #333; text-decoration: none;">axy240016@utdallas.edu</a></p>
+                    </section>
+                    <section style="flex: 1; min-width: 200px; padding: 10px;">
+                        <h3 style="color: #4A90E2; font-weight: bold;">Social</h3>
+                        <ul class="icons alt" style="list-style: none; padding: 0; display: flex; justify-content: flex-start; gap: 10px;">
+                            <li><a href="https://github.com/ay9869" class="icon brands alt fa-github" style="color: #333; font-size: 24px;"><span class="label">GitHub</span></a></li>
+                            <li><a href="https://www.linkedin.com/in/abhimanyu-yadav-utd/" class="icon brands alt fa-linkedin" style="color: #0077B5; font-size: 24px;"><span class="label">LinkedIn</span></a></li>
+                        </ul>
+                    </section>
+                </section>
+            </footer>
+
+
+        <!-- Copyright -->
+        <div id="copyright" style="background: linear-gradient(to right, #2c3e50, #34495e); padding: 10px 0; text-align: center; color: white; font-size: 0.9rem; box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);">
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li>&copy; 2024 Abhimanyu Yadav</li>
+            </ul>
+        </div>
+        
+        
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+
+</body>
+</html>
